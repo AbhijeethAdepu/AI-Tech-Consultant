@@ -1,6 +1,4 @@
-
-
-\# AI Tech Consultant
+AI Tech Consultant
 
 
 
@@ -8,67 +6,61 @@ An AI-powered support automation project consisting of two Python services.
 
 
 
-\## Components
+Components
 
 
 
-\### 1. Knowledge Brain
+1. Knowledge Brain
 
-\- Ingests support documentation.
+Ingests support documentation.
 
-\- Uses Ollama embeddings for semantic retrieval.
+Uses Ollama embeddings for semantic retrieval.
 
-\- Generates documentation-grounded answers.
+Generates documentation-grounded answers.
 
-\- Returns source URLs and relevance scores.
+Returns source URLs and relevance scores.
 
-\- Flags questions when available evidence is insufficient.
-
-
-
-\### 2. Inbox Agent
-
-\- Classifies incoming customer emails.
-
-\- Requests relevant information from the Knowledge Brain.
-
-\- Generates customer-support reply drafts.
-
-\- Stores drafts in SQLite.
-
-\- Supports human approval, editing, and rejection.
+Flags questions when available evidence is insufficient.
 
 
 
-\## Technology Stack
+2. Inbox Agent
+
+Classifies incoming customer emails.
+
+Requests relevant information from the Knowledge Brain.
+
+Generates customer-support reply drafts.
+
+Stores drafts in SQLite.
+
+Supports human approval, editing, and rejection.
 
 
 
-\- Python
-
-\- FastAPI
-
-\- Ollama
-
-\- `nomic-embed-text`
-
-\- `llama3.2:3b`
-
-\- SQLite
-
-\- HTTPX
+Technology Stack
 
 
 
-\## Prerequisites
+Python
+
+FastAPI
+
+Ollama
+
+HTTPX
 
 
 
-\- Python
+Prerequisites
 
-\- Ollama
 
-\- The `nomic-embed-text` and `llama3.2:3b` models
+
+Python
+
+Ollama
+
+The `nomic-embed-text` and `llama3.2:3b` models
 
 
 
